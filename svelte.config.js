@@ -11,13 +11,7 @@ const config = {
 		base: dev ? '' : process.env.BASE_PATH,
 	},
 	prerender: {
-		handleHttpError: ({ path, referrer, message }) => {
-			if(path === "/not-found" && referrer === undefined) {
-				return {status: 404, html: "Not found"};
-			};
-
-			throw new Error(message);
-		}
+		handleHttpError: "warn"
 	}
   },
   preprocess: vitePreprocess(),
