@@ -20,5 +20,5 @@
 </div>
 
 <div class="mt-8 text-secondary">
-    <p class="">Imagine the bee movie script here</p>
+    <p class="">Hi! I'm Stereo528 (She/Her), and I love programming and video games.</p>
 </div>
