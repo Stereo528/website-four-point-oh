@@ -18,6 +18,5 @@ const config = {
 	},
   },
   preprocess: vitePreprocess(),
-  trailingSlash: 'always'
 };
 export default config;
