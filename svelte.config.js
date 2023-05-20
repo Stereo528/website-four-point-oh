@@ -6,11 +6,18 @@ const dev = process.argv.includes('dev');
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   kit: {
-    adapter: adapter(),
+    adapter: adapter({
+		pages: 'build',
+		assets: 'build',
+		fallback: null,
+		precompress: false,
+		strict: true
+	}),
 	paths: {
 		base: dev ? '' : process.env.BASE_PATH,
 	},
   },
-  preprocess: vitePreprocess()
+  preprocess: vitePreprocess(),
+  trailingSlash: 'always'
 };
 export default config;
