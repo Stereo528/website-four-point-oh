@@ -10,6 +10,15 @@ const config = {
 	paths: {
 		base: dev ? '' : process.env.BASE_PATH,
 	},
+	prerender: {
+		handleHttpError: ({path, refferrer, message}) => {
+			if(path === "/not-found" || path === "/404") {
+				return {status: 404, html: "Not found"};
+			};
+
+			throw new Error(message);
+		}
+	}
   },
   preprocess: vitePreprocess(),
 };
