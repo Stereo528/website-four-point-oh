@@ -12,7 +12,7 @@ const config = {
 	},
 	prerender: {
 		handleHttpError: ({path, refferrer, message}) => {
-			if(path === "/not-found" || path === "/404") {
+			if(path === "/not-found" && refferrer === undefined) {
 				return {status: 404, html: "Not found"};
 			};
 
