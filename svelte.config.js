@@ -11,8 +11,8 @@ const config = {
 		base: dev ? '' : process.env.BASE_PATH,
 	},
 	prerender: {
-		handleHttpError: ({path, refferrer, message}) => {
-			if(path === "/not-found" && refferrer === undefined) {
+		handleHttpError: ({ path, referrer, message }) => {
+			if(path === "/not-found" && referrer === undefined) {
 				return {status: 404, html: "Not found"};
 			};
 
