@@ -12,11 +12,6 @@
 
 <div class="justify-between flex p-1 items-center text-secondary border-b-4 border-primary-button px-5 mx-auto w-1/2">
     <h1 class="text-4xl text-secondary">Stereo528</h1>
-    <nav class="flex uppercase">
-    <a href="/" class="text-secondary p-2">Home</a>
-    <a href="/about" class="text-secondary p-2">About</a>
-    <a href="/contact" class="text-secondary p-2">Contact</a>
-</nav>
 </div>
 
 <div class="mt-8 text-secondary">
