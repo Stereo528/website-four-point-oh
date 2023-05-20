@@ -11,10 +11,10 @@ module.exports = {
     extend: {
       colors: {
         'primary': "#1b151e",
-        'secondary': "#d6b5f2",
-        'accent': "#c33cbf",
-        'primary-button': "#843cc3",
-        'secondary-button': "#eec8ed",
+        'secondary': "#c5b8cc",
+        'accent': "#bfccb8",
+        'primary-button': "#bfccb8",
+        'secondary-button': "#231c26",
           
       },
       fontFamily: {

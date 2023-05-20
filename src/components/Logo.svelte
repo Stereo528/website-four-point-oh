@@ -1,1 +1,1 @@
-<h1 class="text-4xl text-accent">Stereo528</h1>
+<h1 class="text-4xl text-secondary">Stereo528</h1>
