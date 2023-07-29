@@ -15,7 +15,3 @@
 </script>
 
 <Header />
-
-<div class="mt-8 text-secondary">
-    <p class="">Hi! I'm Stereo528 (She/Her), and I love programming and video games.</p>
-</div>
